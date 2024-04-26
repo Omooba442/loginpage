@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   position: relative;
+   width: 500px;
+   height:auto;
+   margin-top: 120px;
+   margin-left: 32%;
+}
+.form-box{
+    position: relative;
+    background: black;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px  rgb(194, 161, 161) ;
+    -webkit-backdrop-filter: blur(5px);
+    border: 2px solid rgba(120, 88, 88, 0.3);
+    
+
+
+}
+form{
+    position: relative;
+    padding: 12%;
+}
+.btn-primary{
+    height: 50px;
+    transform: scale(85%);
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(270deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+    );
+    width:100%;
+}
+.btn-primary:hover{
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+background-image: linear-gradient(206deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+font-weight: 400;
+border: 1px solid white;
+transition: 1s ease-in-out;
+    
+}
+h2{
+    color: white;
+    
+}
+.form-label , .form-check-label{
+    color: aliceblue;
+    font-size: 13px;
+    font-weight: 500;
+}
+.form-contro{
+    padding: 2px;
+}
+.form-text{
+    color: wheat;
+}
+.clr-a{
+    background-color: #6284FF;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top:-50px;
+    left: -80px;
+    z-index: -5;
+}
+.clr-b{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    bottom:-50px;
+    right: -80px;
+    z-index: -5; 
+}
